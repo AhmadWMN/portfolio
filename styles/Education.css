@@ -1,0 +1,32 @@
+.education-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .education-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .education-item {
+    background-color: #DEF9C4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .education-item h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .education-item p {
+    margin-bottom: 5px;
+  }
+  
+  .education-item .education-date {
+    font-style: italic;
+    color: #666;
+  }
+  

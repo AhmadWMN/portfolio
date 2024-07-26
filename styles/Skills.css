@@ -1,0 +1,31 @@
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .skills-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    background-color: #DEF9C4;
+    padding: 8px 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-list {
+      flex-direction: column;
+    }
+  }
+  

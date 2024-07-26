@@ -1,0 +1,22 @@
+.projects-container {
+  margin:20px;
+ 
+}
+
+.projects-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr  1fr; /* Three equal columns */
+  grid-template-rows: auto auto; /* Two rows with automatic height */
+}
+
+@media (max-width: 768px) {
+  .projects-list {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+    justify-items: start; /* Align items to the start */
+  }
+}
